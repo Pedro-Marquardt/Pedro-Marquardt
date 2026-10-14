@@ -19,15 +19,15 @@
 ```diff
 + // BOOT — identity.sys
 + ────────────────────────────────────────
-+ ▸ user   :: pedro marquardt
-+ ▸ role   :: ai engineer / agent builder
-+ ▸ focus  :: rag · agents · health · compliance
-+ ▸ loc    :: brazil
++ ▸ user     :: pedro marquardt
++ ▸ role     :: AI Engineer / Software Developer @ Zallpy Digital
++ ▸ focus    :: Agentic AI · Advanced RAG · Multimodal Systems · MCP
++ ▸ location :: Brazil
 + ────────────────────────────────────────
 + // status :: BUILDING
 ```
 
-Sistemas de IA orientados a produto — roteamento semântico, fine-tuning, pipelines multimodais e tooling para vector DBs.
+AI Engineer & Full-Stack Developer specializing in production-grade Agentic systems, Advanced RAG architectures, and scalable backend platforms. Focused on bridging the gap between cutting-edge LLM orchestration (LangChain, LangGraph, AWS Bedrock) and deterministic infrastructure (FastAPI, Node.js, PostgreSQL, Docker).
 
 <p>
   <a href="https://www.linkedin.com/in/pedro-rufino-marquardt-3030ba189"><img src="https://img.shields.io/badge/%2F%2F_linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00ff9c&labelColor=0a0f0a" alt="linkedin" /></a>
@@ -42,7 +42,7 @@ Sistemas de IA orientados a produto — roteamento semântico, fine-tuning, pipe
 │  ▸ retrieval   chroma · lancedb · kg / embeds   │
 │  ▸ ml·vision   yolo · sklearn · genetic alg     │
 │  ▸ backend     fastapi · node · postgres · mongo│
-│  ▸ ops         docker · compose · n8n           │
+│  ▸ cloud·ops   aws bedrock · docker · compose   │
 │                                                 │
 └──────────────────────────────────── status: OK ─┘
 ```
@@ -55,6 +55,7 @@ Sistemas de IA orientados a produto — roteamento semântico, fine-tuning, pipe
 <img src="https://img.shields.io/badge/MCP-b000ff?style=flat-square&labelColor=0a0f0a" alt="mcp" />
 <img src="https://img.shields.io/badge/chroma-00ff9c?style=flat-square&labelColor=0a0f0a" alt="chroma" />
 <img src="https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=0a0f0a" alt="fastapi" />
+<img src="https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=0a0f0a" alt="bedrock" />
 <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white&labelColor=0a0f0a" alt="docker" />
 </p>
 
@@ -66,41 +67,15 @@ Sistemas de IA orientados a produto — roteamento semântico, fine-tuning, pipe
 
 ### `// featured_projects`
 
-```diff
-+ [01] chroma-admin-cli
-+ ▸ desc  :: TUI interativa para admin / explore de ChromaDB
-+ ▸ stack :: python
-+ ▸ href  :: https://github.com/Pedro-Marquardt/chroma-admin-cli
-
-+ [02] medical-assistant
-+ ▸ desc  :: assistente médico · RAG + MCP · LoRA (Mistral 7B)
-+ ▸ stack :: fastapi · langgraph · chroma
-+ ▸ href  :: https://github.com/Pedro-Marquardt/medical-assistant
-
-+ [03] ArchGuard-AI
-+ ▸ desc  :: STRIDE multi-agente a partir de diagramas
-+ ▸ stack :: langchain · multi-llm
-+ ▸ href  :: https://github.com/Pedro-Marquardt/ArchGuard-AI
-
-+ [04] women-health
-+ ▸ desc  :: IA multimodal · suporte clínico · saúde da mulher
-+ ▸ stack :: streamlit · yolov8
-+ ▸ href  :: https://github.com/Pedro-Marquardt/women-health
-
-+ [05] ml-diabetes-detection
-+ ▸ desc  :: predição de diabetes + relatório diagnóstico via LLM
-+ ▸ stack :: fastapi · ml
-+ ▸ href  :: https://github.com/Pedro-Marquardt/ml-diabetes-detection
-
-+ [06] talent-acquisition-ai
-+ ▸ desc  :: talent acquisition · OCR + análise por LLM
-+ ▸ stack :: fastapi · mongodb · tesseract
-+ ▸ href  :: https://github.com/Pedro-Marquardt/talent-acquisition-ai
-```
+| # | Project | Description | Stack |
+|:--|:--------|:------------|:------|
+| `01` | [**medical-assistant**](https://github.com/Pedro-Marquardt/medical-assistant) | Clinical assistant powered by RAG + MCP with fine-tuned LoRA (Mistral 7B). | `FastAPI` · `LangGraph` · `ChromaDB` |
+| `02` | [**women-health**](https://github.com/Pedro-Marquardt/women-health) | Multimodal AI platform for women's healthcare support & clinical analysis. | `Streamlit` · `YOLOv8` · `Multimodal LLM` |
+| `03` | [**ml-diabetes-detection**](https://github.com/Pedro-Marquardt/ml-diabetes-detection) | Predictive ML model for diabetes screening paired with LLM-generated diagnostic insights. | `FastAPI` · `Scikit-Learn` · `LLM Integration` |
+| `04` | [**talent-acquisition-ai**](https://github.com/Pedro-Marquardt/talent-acquisition-ai) | AI-driven HR pipeline featuring automated OCR parsing & candidate evaluation. | `FastAPI` · `MongoDB` · `Tesseract` |
 
 ```text
-also  :: customer-service agents · ESG (kg + vector + sql) · health knowledge/mcp
-layer :: private
+// PRIVATE LAYER :: Enterprise Customer Service Agents · ESG Knowledge Graphs (Vector + SQL) · Healthcare MCP Pipelines
 ```
 
 ---
@@ -109,9 +84,9 @@ layer :: private
 
 ```diff
 + // NOW
-+ ▸ building  :: agent systems · rag pipelines · health / compliance tools
-+ ▸ stack     :: python · typescript · langgraph · chroma · docker
-+ ▸ open_to   :: collabs · hard AI product problems
++ ▸ building  :: agent systems · RAG pipelines · health / compliance tools
++ ▸ stack     :: python · typescript · langgraph · chroma · docker · bedrock
++ ▸ open_to   :: collaborations · hard AI product problems
 ```
 
 ---
