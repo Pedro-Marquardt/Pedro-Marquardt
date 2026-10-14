@@ -1,51 +1,21 @@
 <!--
   profile :: Pedro-Marquardt
   theme   :: terminal / cyberpunk · dark-mode first
+  layout  :: responsive hero via <picture> (desktop ↔ mobile)
 -->
 
-<table>
-<tr>
-<td valign="top" width="34%" align="center">
-
-<img src="./portrait.svg" alt="ASCII portrait — Pedro Marquardt" width="220" />
-
-<br/>
-
-`[ cam_01 · online ]`
-
-</td>
-<td valign="top" width="66%">
-
-```diff
-+ // BOOT — identity.sys
-+ ────────────────────────────────────────
-+ ▸ user     :: pedro marquardt
-+ ▸ role     :: AI Engineer / Software Developer
-+ ▸ focus    :: Agentic AI · Advanced RAG · Multimodal Systems · MCP
-+ ▸ location :: Brazil
-+ ────────────────────────────────────────
-+ // status :: BUILDING
-```
-
-AI Engineer & Full-Stack Developer specializing in production-grade Agentic systems, Advanced RAG architectures, and scalable backend platforms. Focused on bridging the gap between cutting-edge LLM orchestration (LangChain, LangGraph, AWS Bedrock) and deterministic infrastructure (FastAPI, Node.js, PostgreSQL, Docker).
+<!-- Viewport-aware hero: side-by-side on desktop, stacked on mobile -->
+<p align="center">
+  <picture>
+    <source media="(max-width: 768px)" srcset="./hero-mobile.svg" />
+    <img src="./hero-desktop.svg" alt="Pedro Marquardt — ASCII portrait, identity, skills (responsive)" width="100%" />
+  </picture>
+</p>
 
 <p>
   <a href="https://www.linkedin.com/in/pedro-rufino-marquardt-3030ba189"><img src="https://img.shields.io/badge/%2F%2F_linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00ff9c&labelColor=0a0f0a" alt="linkedin" /></a>
   <a href="https://github.com/Pedro-Marquardt"><img src="https://img.shields.io/badge/%2F%2F_github-181717?style=for-the-badge&logo=github&logoColor=00ff9c&labelColor=0a0f0a" alt="github" /></a>
 </p>
-
-```text
-┌─ SKILL_MATRIX ──────────────────────────────────┐
-│                                                 │
-│  ▸ langs       python · typescript · sql        │
-│  ▸ agents      langgraph · langchain · mcp      │
-│  ▸ retrieval   chroma · lancedb · kg / embeds   │
-│  ▸ ml·vision   yolo · sklearn · genetic alg     │
-│  ▸ backend     fastapi · node · postgres · mongo│
-│  ▸ cloud·ops   aws bedrock · docker · compose   │
-│                                                 │
-└──────────────────────────────────── status: OK ─┘
-```
 
 <p>
 <img src="https://img.shields.io/badge/python-00ff9c?style=flat-square&logo=python&logoColor=0a0f0a&labelColor=0a0f0a" alt="python" />
@@ -58,10 +28,6 @@ AI Engineer & Full-Stack Developer specializing in production-grade Agentic syst
 <img src="https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=0a0f0a" alt="bedrock" />
 <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white&labelColor=0a0f0a" alt="docker" />
 </p>
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -107,5 +73,5 @@ signal   :: ping welcome — builders only
 ---
 
 <p align="center">
-  <code>eof :: profile.readme — dark mode preferred</code>
+  <code>eof :: profile.readme — responsive · dark mode preferred</code>
 </p>
