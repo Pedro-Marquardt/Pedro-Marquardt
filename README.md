@@ -20,7 +20,7 @@
 + // BOOT — identity.sys
 + ────────────────────────────────────────
 + ▸ user     :: pedro marquardt
-+ ▸ role     :: AI Engineer / Software Developer @ Zallpy Digital
++ ▸ role     :: AI Engineer / Software Developer
 + ▸ focus    :: Agentic AI · Advanced RAG · Multimodal Systems · MCP
 + ▸ location :: Brazil
 + ────────────────────────────────────────
