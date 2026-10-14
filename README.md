@@ -18,12 +18,12 @@
 
 ```diff
 + // BOOT — identity.sys
-  ────────────────────────────────────────
-! user   :: pedro marquardt
-! role   :: ai engineer / agent builder
-! focus  :: rag · agents · health · compliance
-! loc    :: brazil
-  ────────────────────────────────────────
++ ────────────────────────────────────────
++ ▸ user   :: pedro marquardt
++ ▸ role   :: ai engineer / agent builder
++ ▸ focus  :: rag · agents · health · compliance
++ ▸ loc    :: brazil
++ ────────────────────────────────────────
 + // status :: BUILDING
 ```
 
@@ -68,34 +68,34 @@ Sistemas de IA orientados a produto — roteamento semântico, fine-tuning, pipe
 
 ```diff
 + [01] chroma-admin-cli
-  desc  :: TUI interativa para admin / explore de ChromaDB
-  stack :: python
-  href  :: https://github.com/Pedro-Marquardt/chroma-admin-cli
++ ▸ desc  :: TUI interativa para admin / explore de ChromaDB
++ ▸ stack :: python
++ ▸ href  :: https://github.com/Pedro-Marquardt/chroma-admin-cli
 
 + [02] medical-assistant
-  desc  :: assistente médico · RAG + MCP · LoRA (Mistral 7B)
-  stack :: fastapi · langgraph · chroma
-  href  :: https://github.com/Pedro-Marquardt/medical-assistant
++ ▸ desc  :: assistente médico · RAG + MCP · LoRA (Mistral 7B)
++ ▸ stack :: fastapi · langgraph · chroma
++ ▸ href  :: https://github.com/Pedro-Marquardt/medical-assistant
 
 + [03] ArchGuard-AI
-  desc  :: STRIDE multi-agente a partir de diagramas
-  stack :: langchain · multi-llm
-  href  :: https://github.com/Pedro-Marquardt/ArchGuard-AI
++ ▸ desc  :: STRIDE multi-agente a partir de diagramas
++ ▸ stack :: langchain · multi-llm
++ ▸ href  :: https://github.com/Pedro-Marquardt/ArchGuard-AI
 
 + [04] women-health
-  desc  :: IA multimodal · suporte clínico · saúde da mulher
-  stack :: streamlit · yolov8
-  href  :: https://github.com/Pedro-Marquardt/women-health
++ ▸ desc  :: IA multimodal · suporte clínico · saúde da mulher
++ ▸ stack :: streamlit · yolov8
++ ▸ href  :: https://github.com/Pedro-Marquardt/women-health
 
 + [05] ml-diabetes-detection
-  desc  :: predição de diabetes + relatório diagnóstico via LLM
-  stack :: fastapi · ml
-  href  :: https://github.com/Pedro-Marquardt/ml-diabetes-detection
++ ▸ desc  :: predição de diabetes + relatório diagnóstico via LLM
++ ▸ stack :: fastapi · ml
++ ▸ href  :: https://github.com/Pedro-Marquardt/ml-diabetes-detection
 
 + [06] talent-acquisition-ai
-  desc  :: talent acquisition · OCR + análise por LLM
-  stack :: fastapi · mongodb · tesseract
-  href  :: https://github.com/Pedro-Marquardt/talent-acquisition-ai
++ ▸ desc  :: talent acquisition · OCR + análise por LLM
++ ▸ stack :: fastapi · mongodb · tesseract
++ ▸ href  :: https://github.com/Pedro-Marquardt/talent-acquisition-ai
 ```
 
 ```text
@@ -108,9 +108,10 @@ layer :: private
 ### `// now`
 
 ```diff
-+ building  :: agent systems · rag pipelines · health / compliance tools
-! stack     :: python · typescript · langgraph · chroma · docker
-! open_to   :: collabs · hard AI product problems
++ // NOW
++ ▸ building  :: agent systems · rag pipelines · health / compliance tools
++ ▸ stack     :: python · typescript · langgraph · chroma · docker
++ ▸ open_to   :: collabs · hard AI product problems
 ```
 
 ---
