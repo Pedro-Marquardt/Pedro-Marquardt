@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=390, initial-scale=1" />
+  <title>hero · mobile</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: #0d1117;
+      color: #c8ffdf;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    body { padding: 14px 14px 40px; width: 390px; }
+    .topbar { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      color: #00ff9c;
+      border: 1px solid #00ff9c55;
+      background: #0a0f0a;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+    }
+    .cam {
+      width: min(200px, 100%);
+      text-align: center;
+    }
+    .cam img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .cam-label {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #7dffc3;
+    }
+    .desc { width: 100%; min-width: 0; }
+    .panel, .skills {
+      background: #0a0f0a;
+      border: 1px solid #1a3d2a;
+      border-radius: 6px;
+      padding: 12px 14px 14px;
+      max-width: 100%;
+      overflow-x: auto;
+    }
+    .panel pre {
+      margin: 0;
+      font-size: 11px;
+      line-height: 1.5;
+      color: #33ff99;
+      white-space: pre;
+      font-family: inherit;
+    }
+    .bio {
+      margin: 12px 0;
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: #b7f5d4;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .skill-title {
+      color: #00ff9c;
+      font-size: 12px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+    .skill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      padding: 6px 0;
+      border-bottom: 1px solid #1a3d2a66;
+      font-size: 11.5px;
+    }
+    .skill-row .k {
+      flex: 0 0 auto;
+      color: #00ff9c;
+      min-width: 5.5rem;
+    }
+    .skill-row .k::before { content: "▸ "; opacity: 0.7; }
+    .skill-row .v {
+      flex: 1 1 10rem;
+      color: #7dffc3;
+      overflow-wrap: anywhere;
+    }
+    .skill-ok {
+      margin-top: 10px;
+      font-size: 11px;
+      color: #33ff99;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar"><span class="badge">📱 view :: mobile</span></div>
+  <div class="wrap">
+    <div class="cam">
+      <img src="./portrait.svg" alt="ASCII portrait — Pedro Marquardt" width="200" />
+      <div class="cam-label">[ cam_01 · online ]</div>
+    </div>
+    <div class="desc">
+      <div class="panel"><pre>+ // BOOT — identity.sys
++ ────────────────────────
++ ▸ user  :: pedro marquardt
++ ▸ role  :: AI Engineer / Software Developer
++ ▸ focus :: Agentic AI · RAG · Multimodal · MCP
++ ▸ loc   :: Brazil
++ ────────────────────────
++ // status :: BUILDING</pre></div>
+      <p class="bio">AI Engineer &amp; Full-Stack Developer specializing in production-grade Agentic systems, Advanced RAG architectures, and scalable backend platforms. Focused on bridging the gap between cutting-edge LLM orchestration (LangChain, LangGraph, AWS Bedrock) and deterministic infrastructure (FastAPI, Node.js, PostgreSQL, Docker).</p>
+      <div class="skills">
+        <div class="skill-title">// SKILL_MATRIX</div>
+        <div class="skill-row"><span class="k">langs</span><span class="v">python · typescript · sql</span></div>
+        <div class="skill-row"><span class="k">agents</span><span class="v">langgraph · langchain · mcp</span></div>
+        <div class="skill-row"><span class="k">retrieval</span><span class="v">chroma · lancedb · kg / embeds</span></div>
+        <div class="skill-row"><span class="k">ml·vision</span><span class="v">yolo · sklearn · genetic alg</span></div>
+        <div class="skill-row"><span class="k">backend</span><span class="v">fastapi · node · postgres · mongo</span></div>
+        <div class="skill-row"><span class="k">cloud·ops</span><span class="v">aws bedrock · docker · compose</span></div>
+        <div class="skill-ok">status: OK</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=920, initial-scale=1" />
+  <title>hero · desktop</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: #0d1117;
+      color: #c8ffdf;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    body { padding: 16px 20px 40px; width: 920px; }
+    .topbar { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.6px;
+      color: #00ff9c;
+      border: 1px solid #00ff9c55;
+      background: #0a0f0a;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 24px;
+      width: 100%;
+    }
+    .cam {
+      flex: 0 0 220px;
+      width: 220px;
+      text-align: center;
+    }
+    .cam img {
+      width: 220px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .cam-label {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #7dffc3;
+    }
+    .desc { flex: 1 1 auto; min-width: 0; }
+    .panel, .skills {
+      background: #0a0f0a;
+      border: 1px solid #1a3d2a;
+      border-radius: 6px;
+      padding: 12px 14px 14px;
+      max-width: 100%;
+      overflow-x: auto;
+    }
+    .panel pre {
+      margin: 0;
+      font-size: 11.5px;
+      line-height: 1.5;
+      color: #33ff99;
+      white-space: pre;
+      font-family: inherit;
+    }
+    .bio {
+      margin: 12px 0;
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: #b7f5d4;
+    }
+    .skills pre {
+      margin: 0;
+      font-size: 11px;
+      line-height: 1.5;
+      color: #7dffc3;
+      white-space: pre;
+      font-family: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar"><span class="badge">🖥️ view :: desktop</span></div>
+  <div class="wrap">
+    <div class="cam">
+      <img src="./portrait.svg" alt="ASCII portrait — Pedro Marquardt" width="220" />
+      <div class="cam-label">[ cam_01 · online ]</div>
+    </div>
+    <div class="desc">
+      <div class="panel"><pre>+ // BOOT — identity.sys
++ ────────────────────────────────────────
++ ▸ user     :: pedro marquardt
++ ▸ role     :: AI Engineer / Software Developer
++ ▸ focus    :: Agentic AI · Advanced RAG · Multimodal Systems · MCP
++ ▸ location :: Brazil
++ ────────────────────────────────────────
++ // status :: BUILDING</pre></div>
+      <p class="bio">AI Engineer &amp; Full-Stack Developer specializing in production-grade Agentic systems, Advanced RAG architectures, and scalable backend platforms. Focused on bridging the gap between cutting-edge LLM orchestration (LangChain, LangGraph, AWS Bedrock) and deterministic infrastructure (FastAPI, Node.js, PostgreSQL, Docker).</p>
+      <div class="skills"><pre>┌─ SKILL_MATRIX ──────────────────────────────────┐
+│                                                 │
+│  ▸ langs       python · typescript · sql        │
+│  ▸ agents      langgraph · langchain · mcp      │
+│  ▸ retrieval   chroma · lancedb · kg / embeds   │
+│  ▸ ml·vision   yolo · sklearn · genetic alg     │
+│  ▸ backend     fastapi · node · postgres · mongo│
+│  ▸ cloud·ops   aws bedrock · docker · compose   │
+│                                                 │
+└──────────────────────────────────── status: OK ─┘</pre></div>
+    </div>
+  </div>
+</body>
+</html>

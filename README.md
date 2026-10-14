@@ -1,14 +1,14 @@
 <!--
   profile :: Pedro-Marquardt
   theme   :: terminal / cyberpunk · dark-mode first
-  layout  :: responsive hero via <picture> (desktop ↔ mobile)
+  layout  :: HTML heroes → PNG · <picture> desktop ↔ mobile
 -->
 
 <!-- Viewport-aware hero: side-by-side on desktop, stacked on mobile -->
 <p align="center">
   <picture>
-    <source media="(max-width: 768px)" srcset="./hero-mobile.svg" />
-    <img src="./hero-desktop.svg" alt="Pedro Marquardt — ASCII portrait, identity, skills (responsive)" width="100%" />
+    <source media="(max-width: 768px)" srcset="./hero-mobile.png" />
+    <img src="./hero-desktop.png" alt="Pedro Marquardt — ASCII portrait, identity, skills (responsive)" width="100%" />
   </picture>
 </p>
 
